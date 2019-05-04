@@ -1,2 +1,4 @@
 .vscode/
 plan.txt
+search/__pycache__/
+navigator/__pycache__/
