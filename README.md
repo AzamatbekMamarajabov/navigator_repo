@@ -7,6 +7,7 @@ Program for searching repositories in github by latest update.
 ```shell
 pip install pipenv
 pipenv shell
+pipenv install Pipfile
 python manage.py runserver
 ```
 
