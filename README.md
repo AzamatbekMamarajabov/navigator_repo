@@ -1,20 +1,25 @@
-# navigator_repo
+# Navigator repo
 
-to run the program,
+Program for searching repositories in github by latest update.
 
-first u should install pipenv,
-then run pipenv shell,
-then run python manage.py runserver
+## For runing the program, type these in terminal
+ 
+```shell
+install pipenv
+pipenv shell
+python manage.py runserver
+```
 
-to search repository there are two options:
+## For searching repository there are two options:
 
-first with get method on url type http://127.0.0.1:8000/?search_term=name_of_repository
+1.get method on url type http://127.0.0.1:8000/?search_term=name_of_repository
 
-second with post method in the search input box type name_of_repository 
+2.post method in the search input box type 'name_of_repository' 
 
-after results comes, 
-there is Download button to download csv file 
+## To download via csv file
+There is Download button below
 
-there is loggingfile.log file where loggings are saved
+## Additionally
+There is loggingfile.log file where loggings are saved
 
 pylint gives this result: Your code has been rated at 9.67/10
