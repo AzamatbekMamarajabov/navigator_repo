@@ -5,7 +5,7 @@ Program for searching repositories in github by latest update.
 ## For runing the program, type these in terminal
  
 ```shell
-install pipenv
+pip install pipenv
 pipenv shell
 python manage.py runserver
 ```
@@ -19,7 +19,3 @@ python manage.py runserver
 ## To download via csv file
 There is Download button below
 
-## Additionally
-There is loggingfile.log file where loggings are saved
-
-pylint gives this result: Your code has been rated at 9.67/10
